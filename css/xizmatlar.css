@@ -81,3 +81,9 @@ input[type="radio"] {
   background-color: #00bafc;
   display: inline-block;
 }
+.radio-button-icon {
+  width: 1.4rem;
+  height: 1.4rem;
+  background-color: #00bafc;
+  border-radius: 100%;
+}

@@ -50,7 +50,13 @@
 .card-item:hover {
   box-shadow: 0px 12px 21px rgba(0, 0, 0, 0.1);
 }
+.xizmatlar-item:hover {
+  box-shadow: 0px 12px 21px rgba(0, 0, 0, 0.1);
+}
 .card-item:active {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+.xizmatlar-item:active {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
 }
 /* FOOTER ACTION */
