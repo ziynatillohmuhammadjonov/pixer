@@ -1,0 +1,62 @@
+/* HEADER ACTION */
+.logo-img {
+  transition: 0.5;
+}
+.logo-img:hover {
+  opacity: 0.7;
+}
+.logo-img:active {
+  opacity: 0.4;
+}
+.sitenav-item {
+  position: relative;
+  transition: 0.8s;
+}
+.sitenav-item::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  background-color: #191919;
+  left: 0;
+  bottom: 0;
+  transition: 0.5;
+}
+.sitenav-item:hover::after {
+  width: 100%;
+}
+.activ::after {
+  width: 100%;
+}
+.sitenav-item:active {
+  background: rgba(25, 25, 25, 0.7);
+  color: #fff;
+}
+.sitenav-item:active .sitenav-link {
+  color: #fff;
+}
+.sitenav-item:active::after {
+  background-color: transparent;
+}
+.btn:hover {
+  background-color: rgba(0, 186, 252, 0.8);
+}
+.btn:active {
+  background: rgba(0, 186, 252, 0.6);
+}
+/* MAIN ACTION */
+.card-item {
+  transition: 0.3s;
+}
+.card-item:hover {
+  box-shadow: 0px 12px 21px rgba(0, 0, 0, 0.1);
+}
+.card-item:active {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+/* FOOTER ACTION */
+.footer-item-item-link:hover {
+  color: #00bafc;
+}
+.footer-item-item-link:active {
+  opacity: 0.6;
+}

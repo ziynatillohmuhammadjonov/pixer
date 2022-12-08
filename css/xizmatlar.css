@@ -1,0 +1,83 @@
+.hero-xizmat-container {
+  display: flex;
+  justify-content: center;
+  padding: 7.2rem 0;
+  text-align: center;
+}
+.hero-xizmat-info {
+  width: 80rem;
+}
+.hero-xizmat-title {
+  font-size: 4rem;
+  line-height: 130%;
+  margin-bottom: 1.6rem;
+}
+.hero-xizmat-descr {
+  text-align: center;
+}
+/* XIZMATLAR SECTION */
+.xizmatlar-section {
+  background-color: #f4f4f4;
+}
+.xizmatlar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 8rem 0;
+}
+.container {
+}
+.xizmatlar-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6.4rem;
+}
+.xizmatlar-item {
+  display: flex;
+  align-items: start;
+  gap: 4rem;
+  background: #ffffff;
+  box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  padding: 3.2rem;
+}
+.xizmatlar-img {
+}
+.xizmatlar-info {
+  width: 50rem;
+}
+.xizmatlar-info-title {
+  font-size: 2rem;
+  line-height: 2.6rem;
+  margin-bottom: 1.6rem;
+}
+.hizmatlar-info-descr {
+  margin-bottom: 1.6rem;
+}
+.xizmatlar-info-list {
+  margin-bottom: 1.6rem;
+}
+.xizmatlar-info-item {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.xizmatlar-item-buttons {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+.btn {
+}
+.btn-xizmatlar {
+}
+.xizmatlar-link {
+  color: #00bafc;
+  text-decoration: solid;
+}
+input[type="radio"] {
+  background-color: #00bafc;
+  display: inline-block;
+}
