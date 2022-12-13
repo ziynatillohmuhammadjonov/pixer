@@ -1,0 +1,29 @@
+.dropdown-list {
+  position: absolute;
+  background: rgb(252, 252, 252);
+  visibility: hidden;
+  margin-top: 1.5rem;
+  width: 15rem;
+  opacity: 0;
+}
+.dropdown_item {
+}
+.dropdown-link {
+  width: 100%;
+  display: block;
+  padding: 16px;
+  color: #000000;
+  background-color: #ffffff;
+}
+.dropdown-link:hover {
+  background-color: #00bafc;
+  color: #ffffff;
+}
+.dropdown-link:active {
+  background: #00bafc;
+  opacity: 0.6;
+}
+.dropdown:hover .dropdown-list {
+  visibility: visible;
+  opacity: 1;
+}
